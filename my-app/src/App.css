@@ -1,0 +1,49 @@
+* {
+  font-family: "Noto Sans";
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #99d8d0;
+  height: 100vh;
+  overflow: hidden;
+}
+.button {
+  border: 2px solid #70416d;
+  border-radius: 15px;
+  color: #fff;
+  background-color: #170a19;
+  font-weight: bold;
+  padding: 30px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.ctn {
+}
+.ctn-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.ctn-btn .button:first-child {
+  margin-right: 30px;
+}
+.ctn-btn::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.wiwi {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 2px solid #170a19;
+  background-color: #e4f2f0;
+  padding: 25px;
+  border-radius: 15px;
+}
